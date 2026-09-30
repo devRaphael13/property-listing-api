@@ -1,0 +1,128 @@
+[
+  {
+    "title": "2 Bedroom Self-Contained Apartment in Victoria Island",
+    "description": "Quiet block close to the roundabout, water treatment and 24h power included.",
+    "price": "850000.00",
+    "type": "rent",
+    "bedrooms": 2,
+    "agent_id": "agent-001",
+    "location": { "name": "Victoria Island", "lat": 6.4281, "lng": 3.4219 }
+  },
+  {
+    "title": "Luxury 4 Bedroom Duplex for Rent in Ikoyi",
+    "description": "Serviced estate with pool, gym, generator and BQ. Immediate occupancy.",
+    "price": "4200000.00",
+    "type": "rent",
+    "bedrooms": 4,
+    "agent_id": "agent-002",
+    "location": { "name": "Ikoyi", "lat": 6.4550, "lng": 3.4350 }
+  },
+  {
+    "title": "3 Bedroom Bungalow in Lekki Phase 1",
+    "description": "Detached bungalow, generous compound, borehole and security house.",
+    "price": "1250000.00",
+    "type": "rent",
+    "bedrooms": 3,
+    "agent_id": "agent-001",
+    "location": { "name": "Lekki Phase 1", "lat": 6.4478, "lng": 3.4731 }
+  },
+  {
+    "title": "Studio Apartment in Yaba",
+    "description": "Furnished studio, shared facilities, walking distance to the tech hub.",
+    "price": "320000.00",
+    "type": "rent",
+    "bedrooms": 1,
+    "agent_id": "agent-003",
+    "location": { "name": "Yaba", "lat": 6.5095, "lng": 3.3711 }
+  },
+  {
+    "title": "5 Bedroom Detached House in Banana Island",
+    "description": "Serviced estate, private jetty access, fully fitted kitchen.",
+    "price": "12000000.00",
+    "type": "rent",
+    "bedrooms": 5,
+    "agent_id": "agent-002",
+    "location": { "name": "Banana Island", "lat": 6.4237, "lng": 3.4030 }
+  },
+  {
+    "title": "3 Bedroom Terraced House for Sale in Lekki",
+    "description": "Estate in a gated community, BOQ completed, title and docs ready.",
+    "price": "145000000.00",
+    "type": "sale",
+    "bedrooms": 3,
+    "agent_id": "agent-004",
+    "location": { "name": "Lekki", "lat": 6.4400, "lng": 3.4700 }
+  },
+  {
+    "title": "4 Bedroom Detached House for Sale in Ikoyi",
+    "description": "Old money area, generous plot, separate guest chalet.",
+    "price": "420000000.00",
+    "type": "sale",
+    "bedrooms": 4,
+    "agent_id": "agent-002",
+    "location": { "name": "Ikoyi", "lat": 6.4600, "lng": 3.4400 }
+  },
+  {
+    "title": "2 Bedroom Semi-Detached House for Sale in Surulere",
+    "description": "Newly completed estate, wide roads, mortgage friendly.",
+    "price": "68000000.00",
+    "type": "sale",
+    "bedrooms": 2,
+    "agent_id": "agent-005",
+    "location": { "name": "Surulere", "lat": 6.5004, "lng": 3.3580 }
+  },
+  {
+    "title": "5 Bedroom Mansion for Sale in Ikoyi",
+    "description": "Fullly finished with cinema, gym and staff quarters.",
+    "price": "950000000.00",
+    "type": "sale",
+    "bedrooms": 5,
+    "agent_id": "agent-002",
+    "location": { "name": "Ikoyi", "lat": 6.4530, "lng": 3.4380 }
+  },
+  {
+    "title": "1 Bedroom Shortlet in Lagos Island",
+    "description": "Serviced daily, weekly or monthly rates, WiFi and laundry included.",
+    "price": "250000.00",
+    "type": "shortlet",
+    "bedrooms": 1,
+    "agent_id": "agent-003",
+    "location": { "name": "Lagos Island", "lat": 6.4550, "lng": 3.3900 }
+  },
+  {
+    "title": "3 Bedroom Shortlet Serviced Apartment in Lekki",
+    "description": "Furnished to a high standard, suitable for relocation or extended stay.",
+    "price": "1800000.00",
+    "type": "shortlet",
+    "bedrooms": 3,
+    "agent_id": "agent-001",
+    "location": { "name": "Lekki", "lat": 6.4420, "lng": 3.4650 }
+  },
+  {
+    "title": "2 Bedroom Shortlet in Ikoyi",
+    "description": "Elegant shortlet, backup power, secure parking.",
+    "price": "950000.00",
+    "type": "shortlet",
+    "bedrooms": 2,
+    "agent_id": "agent-004",
+    "location": { "name": "Ikoyi", "lat": 6.4570, "lng": 3.4320 }
+  },
+  {
+    "title": "4 Bedroom Apartment in Gbagada",
+    "description": "Family friendly estate, school nearby, two car parks.",
+    "price": "650000.00",
+    "type": "rent",
+    "bedrooms": 4,
+    "agent_id": "agent-003",
+    "location": { "name": "Gbagada", "lat": 6.5590, "lng": 3.3930 }
+  },
+  {
+    "title": "3 Bedroom Flat for Sale in Ikeja",
+    "description": "Elevator building, estate gym, clean title.",
+    "price": "98000000.00",
+    "type": "sale",
+    "bedrooms": 3,
+    "agent_id": "agent-005",
+    "location": { "name": "Ikeja", "lat": 6.6018, "lng": 3.3515 }
+  }
+]

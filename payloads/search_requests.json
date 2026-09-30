@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Everything, newest first",
+    "method": "GET",
+    "query": ""
+  },
+  {
+    "name": "Rentals only, 2+ bedrooms, under 1.5m",
+    "method": "GET",
+    "query": "?type=rent&min_bedrooms=2&max_price=1500000&sort=price_asc"
+  },
+  {
+    "name": "Sales in Ikoyi area, cheapest first",
+    "method": "GET",
+    "query": "?type=sale&sort=price_asc"
+  },
+  {
+    "name": "Exactly 3 bedrooms for sale",
+    "method": "GET",
+    "query": "?type=sale&bedrooms=3"
+  },
+  {
+    "name": "Within 5 km of Lagos Island (nearest first)",
+    "method": "GET",
+    "query": "?lat=6.4550&lng=3.3900&radius_km=5"
+  },
+  {
+    "name": "Shortlets within 5 km of Victoria Island",
+    "method": "GET",
+    "query": "?type=shortlet&lat=6.4281&lng=3.4219&radius_km=5&sort=distance"
+  },
+  {
+    "name": "2+ bedroom rentals within 8 km of Ikoyi, cheapest",
+    "method": "GET",
+    "query": "?type=rent&min_bedrooms=2&lat=6.4550&lng=3.4350&radius_km=8&sort=price_asc"
+  },
+  {
+    "name": "Second page, 5 per page",
+    "method": "GET",
+    "query": "?page_size=5&page=2"
+  },
+  {
+    "name": "Invalid: unknown listing type",
+    "method": "GET",
+    "query": "?type=lease",
+    "expect_status": 400
+  },
+  {
+    "name": "Invalid: radius above the 200 km cap",
+    "method": "GET",
+    "query": "?lat=6.4550&lng=3.3900&radius_km=500",
+    "expect_status": 400
+  },
+  {
+    "name": "Invalid: geo search missing radius_km",
+    "method": "GET",
+    "query": "?lat=6.4550&lng=3.3900",
+    "expect_status": 400
+  },
+  {
+    "name": "Invalid: min_price greater than max_price",
+    "method": "GET",
+    "query": "?min_price=900000&max_price=100",
+    "expect_status": 400
+  }
+]
